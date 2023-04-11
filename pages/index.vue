@@ -5,6 +5,7 @@
     <HomeAbout />
     <HomeTrailer />
     <HomeCast />
+    <HomeDirector />
     <HomePhotos />
     <!-- <HomeReinforcement />
     <HomeHero />

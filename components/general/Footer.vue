@@ -4,8 +4,9 @@
       <div class="row">
         <div class="col py-4">
           <p>
-            Copyright by Mondiblanc @ 2023 - All Rights Reseved<br />Design by
-            themePrys
+            Copyright by Mondiblanc @ 2023 - All Rights Reseved
+            <!-- <br />Design by
+            themePrys -->
           </p>
         </div>
       </div>
