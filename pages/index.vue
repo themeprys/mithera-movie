@@ -1,18 +1,15 @@
 <template>
   <div>
-    <div class="container-fluid text-center">
-      <div class="row">
-        <div class="col p-0">
-          <HomeCarousel />
-        </div>
-      </div>
-    </div>
+  <HomeHero />
     <HomeIntro />
     <HomeAbout />
-    <HomeReinforcement />
+    <HomeTrailer />
+    <HomeCast />
+    <HomePhotos />
+    <!-- <HomeReinforcement />
     <HomeHero />
     <HomeBenefit />
-    <HomeClosingStatement />
+    <HomeClosingStatement /> -->
   </div>
 </template>
 
@@ -27,7 +24,7 @@ useHead({
     { name: 'description', content: 'Mithera is a short movie.' }
   ],
   bodyAttrs: {
-    class: 'mit'
+    class: 'home'
   }
 })
 </script>

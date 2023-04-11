@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col py-4">
           <p>
-            Copyright by My Company @ 2022 - All Rights Reseved<br />Design by
+            Copyright by Mondiblanc @ 2023 - All Rights Reseved<br />Design by
             themePrys
           </p>
         </div>

@@ -6,8 +6,7 @@
             <img
               alt="Image"
               src="https://wingman.mediumra.re/assets/img/avatar-male-3.jpg"
-              class="avatar avatar-lg"
-              width="180px"
+              class="img-fluid"
             />
         </div>
         <div class="col-8">    
