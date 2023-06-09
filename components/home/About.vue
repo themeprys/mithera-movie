@@ -18,7 +18,7 @@
             <div class="col-12 col-md-6 col-lg-6 text-md-left section-intro">
               <img alt="Image" src="/img/02.webp" class="img-fluid shadow" />                            
             </div>
-            <div class="col-8 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6">
               <img alt="Image" src="/img/about.webp" class="img-fluid shadow" >
             </div>
           </div>

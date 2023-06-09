@@ -3,7 +3,7 @@
       <div class="container py-5">
         <h3 class="text-center">Cast & Crew</h3>
         <div class="row pt-5">
-          <div class="col-6 text-center">
+          <div class="col-12 col-md-6 text-center">
               <img
                 alt="Image"
                 src="~/public/img/rara.webp"
@@ -11,7 +11,7 @@
               />
               <p class="lead">Runny Rudiyanti as Rara</p>
           </div>
-          <div class="col-6 text-center">    
+          <div class="col-12 col-md-6 text-center">    
             <img
                 alt="Image"
                 src="~/public/img/mama.webp"

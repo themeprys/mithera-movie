@@ -1,11 +1,11 @@
 <template>
-  <section class="mth_director text-dark">
+  <section class="mth_director text-dark pb-5 pb-md-0">
     <div class="container">
       <div class="row justify-content-center pt-5">
-        <div class="col-4 text-center">
+        <div class="col-12 col-md-4 text-center d-none d-md-block">
           <img alt="Image" src="~/public/img/adi.webp" class="img-fluid"/>
         </div>
-        <div class="col-8">
+        <div class="col-12 col-md-8">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -16,7 +16,7 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <p>
+                  <img alt="Image" src="~/public/img/adi.webp" class="img-fluid pb-5 d-block d-md-none"/>                  <p>
                     "As a filmmaker, I am inspired to tell the story of a selfless daughter who is willing to sacrifice
                     her own life to save her sick mother.<br><br>The film explores the complex relationship between a
                     mother and daughter and the lengths they will go to for each other. Through the daughter's
