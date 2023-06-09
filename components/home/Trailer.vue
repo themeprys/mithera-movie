@@ -1,7 +1,7 @@
 <template>
-    <section class="mth_trailer bg-black pb-5">
+    <section class="mth_trailer bg-black pb-5" id="trailer">
         <div class="container py-5 text-center">
-            <h3>Trailer</h3>
+            <h3>Movie Trailer</h3>
     <div class='embed-container'><iframe src='https://www.youtube.com/embed/ZzxALLPRN0g' frameborder='0' allowfullscreen></iframe></div>
   </div>
 

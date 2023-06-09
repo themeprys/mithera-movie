@@ -1,16 +1,22 @@
 <template>
-  <section class="mth_synopsis text-white ">
+  <section class="mth_synopsis text-white pb-5">
         <div class="container py-5">
 
-          <div class="row justify-content-around align-items-center py-5">
-            <div class="col-12 col-md-6 col-lg-5 text-md-left section-intro">
-              <span class="title-decorative">Synopsis</span>
-              <h3 class="h1">Mithera</h3>
+          <div class="row justify-content-around align-items-center pt-5">
+            <div class="col-12 col-md-7 text-center">
+              <h3>Synopsis</h3>
+              <!-- <h3 class="h">Mithera</h3> -->
               <span class="lead">
                 Mother is sick and her daughter Rara is trying hard to make her feel better. But mother can only be cured if her daughter is willing to make an ultimate sacrifice.
               </span>
               <p class="pt-4">Drama, Thriller</p>
               <p>Length: 12:45 min<br>Language: Indonesia</p>
+            </div>
+            </div>
+
+          <div class="row justify-content-around align-items-center py-5">            
+            <div class="col-12 col-md-6 col-lg-6 text-md-left section-intro">
+              <img alt="Image" src="/img/02.webp" class="img-fluid shadow" />                            
             </div>
             <div class="col-8 col-md-6 col-lg-6">
               <img alt="Image" src="/img/about.webp" class="img-fluid shadow" >

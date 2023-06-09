@@ -5,16 +5,17 @@
           <!-- <h1 class="display-5 fw-bold text-body-emphasis mth_headline">Mithera</h1> -->
           <div class="col-4 pt-5">
             <img src="~/public/img/title.webp" class="img-fluid" />            
-            <!-- <p class="lead mb-4 mth_subheadline">
-              a film about life and death and sacrifice within
-            </p> -->
+            <p class="lead mb-4 mth_subheadline pt-4 ps-3">
+              Mother is sick and her daughter Rara is trying hard to make her feel better. But mother can only be cured if her daughter is willing to make an ultimate sacrifice.
+            </p>
             <div class="d-grid gap-2 d-sm-flex mt-5">
-              <button type="button" class="btn btn-light btn-lg px-4 gap-3">
-                Watch Trailer
-              </button>
+
+              <a href="#trailer" type="button" class="btn btn-light btn-lg px-4 gap-3">
+                Watch Movie Trailer
+              </a>
             </div>
           </div>
-          <div class="col-8">
+          <div class="col-7 offset-1">
             <img src="~/public/img/stone.webp" class="img-fluid" />
           </div>
     </div>
@@ -43,6 +44,6 @@ export default {};
 }
 .mth_subheadline {
   color: #fffcdd;
-  font-size: 3vh;
+  font-size: 2vh;
 }
 </style>

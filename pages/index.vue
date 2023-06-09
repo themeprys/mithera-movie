@@ -1,9 +1,9 @@
 <template>
   <div>
   <HomeHero />
+    <HomeTrailer />
     <HomeIntro />
     <HomeAbout />
-    <HomeTrailer />
     <HomeCast />
     <HomeDirector />
     <HomePhotos />

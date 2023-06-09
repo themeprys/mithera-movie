@@ -1,8 +1,8 @@
 <template>
     <section class="mth_cast bg-black text-white">
       <div class="container py-5">
-        <h3 class="text-center">Cast</h3>
-        <div class="row py-5">
+        <h3 class="text-center">Cast & Crew</h3>
+        <div class="row pt-5">
           <div class="col-6 text-center">
               <img
                 alt="Image"
@@ -21,8 +21,8 @@
           </div>
         </div>
       </div>
-      <div class="container py-5">
-        <h3 class="text-center">Crew</h3>
+      <div class="container pb-5">
+        <!-- <h3 class="text-center">Crew</h3> -->
         <div class="row py-5">
           <div class="col-8 offset-2 text-center">
             <p>Director: Adinegoro Natsir</p>
@@ -56,6 +56,13 @@
   </script>
   
   <style>
+  .mth_cast {
+    background: url(~/public/img/03a.webp) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+  }
   .mth_cast .container {
     max-width: 900px;
     margin: 0 auto 0;

@@ -1,12 +1,20 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-    css: [
-        // Load a Node.js module directly (here it's a Sass file)
-        // CSS file in the project
-        '@/assets/css/main.css',
-        // SCSS file in the project
-        '@/assets/css/responsive.css'
-      ]    
+  app: {
+    head: {
+        link: [
+            { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap'},
+            { rel: 'stylesheet', href: '@/assets/css/main.css'},            
+            { rel: 'stylesheet', href: '@/assets/css/responsive.css'}                            
+        ],  
+
+    },        
+},  
+    // css: [
+    //     '@/assets/css/main.css',
+    //     '@/assets/css/responsive.css'
+    //   ]    
     // vite: {
     //     css: {
     //       preprocessorOptions: {

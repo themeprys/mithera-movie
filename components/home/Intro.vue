@@ -47,6 +47,7 @@ export default {};
 
 <style>
 .mth_releasedate {
-  font-size: 40px;
+  font-size: 20px;
+  padding-top:7px
 }
 </style>
