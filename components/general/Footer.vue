@@ -51,9 +51,9 @@
     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
       <p>© 2023 Mondiblanc Film Workshop. All rights reserved.</p>
       <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-instagram"></i></a></li>
-        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-solid fa-envelope"></i></a></li>
-        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-solid fa-phone"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" target="_blank" href="https://www.instagram.com/mitherafilm/"><i class="fa-brands fa-instagram"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="mailto:info@mondiblanc.org"><i class="fa-solid fa-envelope"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="tel:+6285624011441"><i class="fa-solid fa-phone"></i></a></li>
       </ul>
     </div>
   

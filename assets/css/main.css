@@ -1,6 +1,7 @@
-/* * {
-  color: #fffcdd !important;
-} */
+* {
+  font-family: 'Aleo', serif;
+  font-weight: 300;
+}
 .navbar-brand {
     display: none;
   }
