@@ -2,11 +2,11 @@
   <div>
   <HomeHero />
     <HomeTrailer />
-    <HomeIntro />
     <HomeAbout />
     <HomeCast />
-    <HomeDirector />
     <HomePhotos />
+    <HomeDirector />
+    <!-- <HomeIntro /> -->
     <!-- <HomeReinforcement />
     <HomeHero />
     <HomeBenefit />

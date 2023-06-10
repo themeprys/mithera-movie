@@ -1,4 +1,25 @@
+/* * {
+  color: #fffcdd !important;
+} */
 .navbar-brand {
     display: none;
   }
-  
+.mth_footer {
+  background: url(~/public/img/hero.webp) no-repeat center right scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 60px 0 0px;
+}  
+.mth_footer a {
+  color: #fff;
+}
+
+.mth_footer a:hover {
+  color: #ccc;
+}
+
+.accordion-button::after {
+  background-color: white;
+}

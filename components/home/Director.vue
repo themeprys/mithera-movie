@@ -1,17 +1,19 @@
 <template>
-  <section class="mth_director text-dark pb-5 pb-md-0">
+  <section id="statement" class="mth_director text-dark pb-5 pb-md-0 pt-5">
     <div class="container">
       <div class="row justify-content-center pt-5">
+        <h3 class="text-center pb-5"><i class="fa-solid fa-quote-right"></i> Director's Statement</h3>
+
         <div class="col-12 col-md-4 text-center d-none d-md-block">
           <img alt="Image" src="~/public/img/adi.webp" class="img-fluid"/>
         </div>
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-8 pt-3">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  DIRECTOR'S STATEMENT
+                  Overview
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
@@ -33,7 +35,7 @@
                 <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button"
                   data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                   aria-controls="collapseTwo">
-                  PROFILE
+                  Profile
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -53,7 +55,7 @@
                 <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button"
                   data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                   aria-controls="collapseThree">
-                  FILMOGRAPHY
+                  Filmography
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -86,10 +88,15 @@
 export default {};
 </script>
   
-<style>.mth_director {
+<style>
+.mth_director {
   background: #fafafa;
 }
-
+.mth_director h3 {
+  font-size: 6vh;
+    font-weight: bold;
+    color: #000;  
+}
 .accordion-button:focus {
   border-color: #111 !important;
   box-shadow: unset !important;

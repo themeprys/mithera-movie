@@ -1,7 +1,7 @@
 <template>
-  <div class="mth_photos px-2 pt-4 pb-5">
-    <div class="container">
-      <h3 class="text-center pb-5">Still Photo</h3>      
+  <div id="gallery" class="mth_photos px-2 pt-4 pb-5">
+    <div class="container pb-5">
+      <h3 class="text-center pb-5 mt-5"><i class="fa-solid fa-camera-retro"></i> Gallery</h3>      
       <div class="row">
         <div class="col-12 col-md-8 offset-md-2">
           <div id="carouselExampleIndicators" class="carousel slide">
@@ -61,8 +61,11 @@ export default {
 
 <style>
 .mth_photos {
-  background: black;
-  /* padding: 100px; */
+  background: url(~/public/img/02a.webp) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
 }
 .mth_photos h3 {
     font-size: 6vh;

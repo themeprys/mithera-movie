@@ -1,15 +1,15 @@
 <template>
-  <section class="mth_synopsis text-white pb-5">
+  <section id="synopsys" class="mth_synopsis text-white pb-5">
         <div class="container py-5">
 
           <div class="row justify-content-around align-items-center pt-5">
             <div class="col-12 col-md-7 text-center">
-              <h3>Synopsis</h3>
+              <h3><i class="fa-solid fa-pen-to-square"></i> Synopsis</h3>
               <!-- <h3 class="h">Mithera</h3> -->
               <span class="lead">
                 Mother is sick and her daughter Rara is trying hard to make her feel better. But mother can only be cured if her daughter is willing to make an ultimate sacrifice.
               </span>
-              <p class="pt-4">Drama, Thriller</p>
+              <p class="pt-4">Drama, Horror</p>
               <p>Length: 12:45 min<br>Language: Indonesia</p>
             </div>
             </div>
@@ -25,7 +25,7 @@
           <div class="row text-center pt-5">
             <div class="col-4">
               <h4>Genre</h4>
-              <p>Drama</p>
+              <p>Drama, Horror</p>
             </div>
             <div class="col-4">
               <h4>Director</h4>
@@ -77,10 +77,21 @@ export default {
 
 <style>
 .mth_synopsis {
-  background: url(~/public/img/hero-black.webp) no-repeat center center fixed; 
+  background: url(~/public/img/04.webp) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;  
+}
+.mth_synopsis h3 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    color: #eee;
+}
+.mth_synopsis .lead {
+  font-size: 15px;
+  color: #fff;
+  /* color: #fffcdd; */
 }
 </style>
