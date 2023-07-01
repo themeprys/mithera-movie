@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@notionhq/client": "^2.2.5",
+    "@nuxtjs/robots": "^3.0.0",
     "vue-gtag-next": "^1.14.0"
   }
 }
