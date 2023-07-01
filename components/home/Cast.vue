@@ -1,6 +1,6 @@
 <template>
   <section id="cast" class="mth_cast bg-black text-white pt-5">
-    <div class="container py-5">
+    <div class="container py-3 py-md-5">
       <h3 class="text-center pb-5"><i class="fa-solid fa-users-line"></i> Cast & Crew</h3>
       <p class="text-center">People who involved in our production team</p>
       <div class="row pt-5">
@@ -16,8 +16,8 @@
     </div>
     <div class="container pb-5">
       <!-- <h3 class="text-center">Crew</h3> -->
-      <div class="row py-5">
-        <div class="col-8 offset-2">
+      <div class="row py-3 py-md-5">
+        <div class="col-12 col-md-8 offset-md-2">
           <table class="table">
             <tbody>
               <tr>

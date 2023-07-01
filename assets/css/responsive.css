@@ -3,4 +3,17 @@
     .navbar-brand {
         display: block;
       }
+      .mth_hero {
+        padding: 20px 0 100px !important;
+    }      
+    .mth_trailer h3,
+    .mth_news h3,
+    .mth_synopsis h3,
+    .mth_cast h3,
+    .mth_photos h3,
+    .mth_director h3            
+    
+    {
+        font-size: 30px !important;
+    }    
   }
