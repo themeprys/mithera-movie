@@ -93,7 +93,7 @@ export default {};
   background: #fafafa;
 }
 .mth_director h3 {
-  font-size: 6vh;
+  font-size: 50px;
     font-weight: bold;
     color: #000;  
 }
