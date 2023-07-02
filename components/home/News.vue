@@ -22,7 +22,7 @@ const { pending, data: posts } = useFetch('https://mondiblanc.org/wp-json/wp/v2/
                                     <!-- </div>
                                     </div> -->
                                     <div class="card-body">
-                                        <h4 style="color: black;">{{ item.title.rendered }}</h4>
+                                        <h4 style="color: black;" v-html="item.title.rendered"></h4>
                                         <p>{{ $dayjs(item.date).format('DD-MM-YYYY') }}</p>
                                         <!-- <p class="card-text">
                                             {{ item.content.rendered }}

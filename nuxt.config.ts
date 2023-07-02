@@ -25,10 +25,16 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css", "~/assets/css/responsive.css"],
   modules: [
     '@nuxtjs/robots',
-    'dayjs-nuxt'
+    'dayjs-nuxt',
+    'nuxt-simple-sitemap',
   ],
   robots: {
     /* module options */
   },
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://mitherafilm.com',
+    }
+  },  
 
 });

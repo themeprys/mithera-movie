@@ -9,7 +9,8 @@
   },
   "devDependencies": {
     "dayjs-nuxt": "^1.1.2",
-    "nuxt": "3.0.0-rc.11"
+    "nuxt": "3.0.0-rc.11",
+    "nuxt-simple-sitemap": "^2.7.0"
   },
   "dependencies": {
     "@notionhq/client": "^2.2.5",
