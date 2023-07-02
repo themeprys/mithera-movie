@@ -42,7 +42,7 @@ export default {};
 
 <style>
 .mth_hero {
-  background: url(~/public/img/hero.webp) no-repeat center right fixed;
+  background: url(~/public/img/hero.webp) no-repeat center right scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

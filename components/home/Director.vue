@@ -18,7 +18,7 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <img alt="Image" src="~/public/img/adi.webp" class="img-fluid pb-5 d-block d-md-none"/>                  <p>
+                  <p>
                     "As a filmmaker, I am inspired to tell the story of a selfless daughter who is willing to sacrifice
                     her own life to save her sick mother.<br><br>The film explores the complex relationship between a
                     mother and daughter and the lengths they will go to for each other. Through the daughter's
@@ -27,6 +27,8 @@
                     within families, and to show that the bond between mother and daughter is unbreakable.”
                   </p>
                   <span>Adinegoro Natsir, Director</span>
+                  <img alt="Image" src="~/public/img/adi.webp" class="img-fluid pb-5 d-block d-md-none"/>
+
                 </div>
               </div>
             </div>
