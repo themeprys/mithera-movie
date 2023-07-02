@@ -31,10 +31,16 @@ export default defineNuxtConfig({
   robots: {
     /* module options */
   },
-  runtimeConfig: {
-    public: {
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://mitherafilm.com',
+  sitemap: {
+    sitemaps: true,
+    siteUrl: 'https://www.mitherafilm.com',
+  },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: [
+        '/',
+      ]
     }
-  },  
-
+  }
 });

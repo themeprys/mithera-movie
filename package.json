@@ -9,11 +9,10 @@
   },
   "devDependencies": {
     "dayjs-nuxt": "^1.1.2",
-    "nuxt": "3.0.0-rc.11",
+    "nuxt": "^3.5.0",
     "nuxt-simple-sitemap": "^2.7.0"
   },
   "dependencies": {
-    "@notionhq/client": "^2.2.5",
     "@nuxtjs/robots": "^3.0.0",
     "vue-gtag-next": "^1.14.0"
   }
