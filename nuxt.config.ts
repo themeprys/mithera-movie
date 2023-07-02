@@ -24,9 +24,11 @@ export default defineNuxtConfig({
   },
   css: ["~/assets/css/main.css", "~/assets/css/responsive.css"],
   modules: [
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    'dayjs-nuxt'
   ],
   robots: {
     /* module options */
-  }
+  },
+
 });
