@@ -13,10 +13,14 @@ const { pending, data: posts } = useFetch('https://mondiblanc.org/wp-json/wp/v2/
                     <div class="row">
                         <div class="col-12 col-md-4 p-4 p-md-2" v-for="item in posts.slice(0, 3)" :key="item.id">
                             <a :href="item.link" target="_blank">
-                                <div class="card">
-                                    <div class="ratio ratio-1x1">
-                                    <img :src="item.jetpack_featured_media_url" class="card-img-top" alt="Mithera">
-                                    </div>
+                                <div class="card border-0">
+                                    <!-- <div class="img-wrap ratio-4-3">
+                                        <div class="img-content"> -->
+                                            <!-- <div class="imagewrapper"> -->
+                                    <img :src="item.jetpack_featured_media_url" style="width: 100%; height: 200px; object-fit: cover; object-position: 100% 50%;" alt="Mithera">
+                                <!-- </div>                                     -->
+                                    <!-- </div>
+                                    </div> -->
                                     <div class="card-body">
                                         <h4 style="color: black;">{{ item.title.rendered }}</h4>
                                         <p>{{ $dayjs(item.date).format('DD-MM-YYYY') }}</p>
@@ -77,4 +81,5 @@ const { pending, data: posts } = useFetch('https://mondiblanc.org/wp-json/wp/v2/
     text-decoration: none;
     color: #222;
 }
+ 
 </style>
