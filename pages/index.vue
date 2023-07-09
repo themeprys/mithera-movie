@@ -21,10 +21,10 @@ useHead({
   title: 'Mithera - a Film by Adinegoro Natsir | Mondiblanc Film Workshop',
   // or, instead:
   // titleTemplate: (title) => `My App - ${title}`,
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
-  charset: 'utf-8',
+  // viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  // charset: 'utf-8',
   meta: [
-    { name: 'description', content: 'Mother is sick and her daughter Rara is trying hard to make her feel better. But mother can only be cured if her daughter is willing to make a sacrifice' }
+    { name: 'description', content: 'Mithera is a short movie produced by Adinegoro Natsir and written by Diah Hayu Ramyastri as part of Omnibus Q released by Mondiblanc Film Workshop.' }
   ],
   bodyAttrs: {
     class: 'home'
